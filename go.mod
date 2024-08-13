@@ -1,4 +1,4 @@
-module github.com/go-telegram/ui
+module github.com/acatec/go-telegram-ui
 
 go 1.20
 
