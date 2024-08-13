@@ -34,9 +34,9 @@ func (kb *Keyboard) Url(text string, url string, handler OnSelect) *Keyboard {
 	})
 
 	kb.markup[len(kb.markup)-1] = append(kb.markup[len(kb.markup)-1], models.InlineKeyboardButton{
-		Text:         text,
-		URL:          url,
-		CallbackData: kb.prefix + strconv.Itoa(len(kb.handlers)-1),
+		Text: text,
+		URL:  url,
+		//CallbackData: kb.prefix + strconv.Itoa(len(kb.handlers)-1),
 	})
 
 	return kb
