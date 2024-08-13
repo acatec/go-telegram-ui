@@ -5,9 +5,9 @@ import (
 	"embed"
 	"strconv"
 
+	"github.com/acatec/go-telegram-ui/slider"
 	"github.com/go-telegram/bot"
 	"github.com/go-telegram/bot/models"
-	"github.com/go-telegram/ui/slider"
 )
 
 type slideData struct {

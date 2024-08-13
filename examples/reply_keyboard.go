@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
+	"github.com/acatec/go-telegram-ui/keyboard/reply"
 	"github.com/go-telegram/bot"
 	"github.com/go-telegram/bot/models"
-	"github.com/go-telegram/ui/keyboard/reply"
 )
 
 var demoReplyKeyboard *reply.ReplyKeyboard

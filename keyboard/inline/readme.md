@@ -14,7 +14,7 @@ import (
 
 	"github.com/go-telegram/bot"
 	"github.com/go-telegram/bot/models"
-	"github.com/go-telegram/ui/keyboard/inline"
+	"github.com/acatec/go-telegram-ui/keyboard/inline"
 )
 
 func main() {
